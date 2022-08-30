@@ -4,7 +4,7 @@ import pandas as pd
 import sklearn
 import numpy as np
 
-st.title("Diabeties Detetcion App")
+st.title("Diabeties Detetcion")
 
 Pregnancies = st.number_input('Pregnancies', 0, 1220000, 10)
 Glucose = st.number_input('Glucose', 0, 1220000, 10)
